@@ -49,7 +49,7 @@ const SearchBar = () => {
   return (
     <StyledSearchBar>
       <StyledForm onSubmit={e => handleSubmit(e)}>
-        <StyledInput ref={inputRef} type="text" placeholder="Enter Key Words" />
+        <StyledInput ref={inputRef} type="text" placeholder="Enter Keywords" />
         <StyledSearchButton type="submit">
           <StyledSearchIcon className="fas fa-search" />
         </StyledSearchButton>
